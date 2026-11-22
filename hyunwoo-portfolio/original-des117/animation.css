@@ -1,0 +1,38 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    animation: fadeIn 2s ease-in-out; 
+}
+
+a {
+    transition: color 0.5s ease-in-out; 
+}
+
+a:hover {
+    color: #003d4f;
+    text-decoration: underline;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-box, .about-me, .tools-links {
+    animation: slideIn 1.5s ease-in-out;
+}

@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #B19CD9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #9370DB;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 0.8em;
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #483D8B;
+}
+
+a.read-more:hover {
+    text-decoration: underline;
+    color: #9370DB;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px 50px; 
+    max-width: 1400px;
+    margin: auto;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    min-height: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ddd; 
+}
+
+h2 {
+    color: #483D8B;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+article p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #B19CD9;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    nav a {
+        font-size: 0.8em;
+        padding: 5px 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 30px;
+    }
+    section {
+        width: 95%;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    img {
+        height: 200px;
+        max-width: 100%;
+    }
+    article p {
+        font-size: 0.85em;
+    }
+}
+
+@media (min-width: 1024px) {
+    nav a {
+        font-size: 1.3em;
+    }
+    .blog-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 100px 50px; 
+    }
+    section {
+        max-width: 380px;
+    }
+}

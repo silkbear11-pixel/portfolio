@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MadLibs</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>MadLibs</h1>
+  </header>
+
+  <main>
+  <!-- INPUT VIEW -->
+    <section class="frame" aria-label="Mad Libs input page">
+      <section class="left-panel" aria-label="Game title">
+        <h2>Campus Chaos</h2>
+      </section>
+
+      <section class="right-panel" aria-label="Fill in the blanks form">
+        <h3>Fill in the blanks</h3>
+
+        <form>
+          <ol class="inputs">
+            <li>
+              <label for="noun1">Input Noun 1</label>
+              <input type="text" id="noun1" required>
+            </li>
+
+            <li>
+              <label for="noun2">Input Noun 2</label>
+              <input type="text" id="noun2" required>
+            </li>
+
+            <li>
+              <label for="noun3">Input Noun 3</label>
+              <input type="text" id="noun3" required>
+            </li>
+
+            <li>
+              <label for="adj1">Input Adjective 1</label>
+              <input type="text" id="adj1" required>
+            </li>
+
+            <li>
+              <label for="adj2">Input Adjective 2</label>
+              <input type="text" id="adj2" required>
+            </li>
+
+            <li>
+              <label for="verbing">Input Verb ending in ing</label>
+              <input type="text" id="verbing" required>
+            </li>
+
+            <li>
+              <label for="place1">Input Place 1</label>
+              <input type="text" id="place1" required>
+            </li>
+
+            <li>
+              <label for="place2">Input Place 2</label>
+              <input type="text" id="place2" required>
+            </li>
+
+            <li>
+              <label for="number">Input Number</label>
+              <input type="number" id="number" required>
+            </li>
+          </ol>
+
+          <input class="create-btn" type="submit" value="Create!">
+        </form>
+      </section>
+    </section>
+
+  <!-- OUTPUT VIEW -->
+    <section class="output hidden" aria-label="Mad Libs output page">
+      <h2 class="output-title">Totally Normal Day</h2>
+
+      <article class="story-box">
+        <p class="story">
+          On my way to <span class="user-word">PLACE 1</span>, I carried my
+          <span class="user-word">NOUN 1</span> and a <span class="user-word">NOUN 2</span>
+          like it was totally normal. The day felt <span class="user-word">ADJECTIVE 1</span>,
+          but the campus also looked <span class="user-word">ADJECTIVE 2</span> for some reason.
+          Near the entrance, I saw someone <span class="user-word">VERB ending in ing</span>,
+          and I stopped to watch for <span class="user-word">NUMBER</span> seconds before remembering I was late.
+          By the time I reached <span class="user-word">PLACE 2</span>, I was pretending everything was fine,
+          even though my <span class="user-word">NOUN 3</span> was basically falling apart.
+        </p>
+      </article>
+
+      <img class="user-photo" src="images/campus2.jpg" width="300" height="188" alt="Campus photo">
+
+    </section>
+
+  </main>
+</body>
+</html>
