@@ -1,72 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Layout Techniques: Flexbox, Grid, Positioning, and Responsive Design</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CSS Layout Techniques: Flexbox, Grid, Positioning, and Responsive Design</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <article>
-        <header>
-            <h1>CSS Layout Techniques: Flexbox, Grid, Positioning, and Responsive Design</h1>
-            <p>February 23, 2025</p>
-        </header>
-
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../post3/post3.html">Previous Post</a>
-            <a href="../post5/post5.html">Next Post</a>
-        </nav>
-
-        <h2>Flexible Box Layout (Flexbox)</h2>
-        <p>Before learning about Flexbox, I struggled with aligning elements properly. Using floats and inline-block often led to inconsistent spacing and alignment issues. But Flexbox changed everything for me. I found it much easier to distribute space and position items dynamically within a container.</p>
-        <p>Key properties I explored include:</p>
-        <ul>
-            <li><code>display: flex;</code> - Defines a flex container, allowing items to align efficiently.</li>
-            <li><code>justify-content</code> - Helps align items horizontally with properties like <code>center</code> and <code>space-between</code>.</li>
-            <li><code>align-items</code> - Controls vertical alignment, which was something I previously found tricky.</li>
-            <li><code>flex-wrap</code> - Allows elements to wrap instead of shrinking uncomfortably in smaller screens.</li>
-        </ul>
-        <img src="images/flexbox.jpg" alt="Example of Flexbox layout" width="800" height="400">
-
-        <h2>CSS Grid Layout</h2>
-        <p>I had heard about CSS Grid before, but I never fully understood how powerful it was until I experimented with it. Unlike Flexbox, which is one-dimensional, Grid lets me control both rows and columns at the same time. This made it much easier to create complex layouts without relying on extra divs.</p>
-        <p>Important concepts I explored:</p>
-        <ul>
-            <li><code>grid-template-columns</code> - Helps me define column structures efficiently.</li>
-            <li><code>grid-template-rows</code> - Allows me to control row heights precisely.</li>
-            <li><code>grid-area</code> - Makes it easy to assign elements to specific grid sections without unnecessary nesting.</li>
-        </ul>
-        <img src="images/grid.jpg" alt="Example of CSS Grid layout" width="800" height="400">
-
-        <h2>Positioning Techniques</h2>
-        <p>Before this, I often got frustrated when elements didn’t stay where I wanted them to. Learning about different positioning methods helped me gain more control over layouts.</p>
-        <p>Here’s what I experimented with:</p>
-        <ul>
-            <li><code>position: relative;</code> - I used this to adjust elements slightly without affecting other content.</li>
-            <li><code>position: absolute;</code> - I realized how powerful this is for placing elements exactly where I need them.</li>
-            <li><code>position: fixed;</code> - This was useful when I wanted to keep a navigation bar visible while scrolling.</li>
-            <li><code>position: sticky;</code> - I found this helpful when I wanted an element to stay in place but only when scrolling reaches a certain point.</li>
-        </ul>
-        <img src="images/positioning.jpg" alt="Example of CSS Positioning" width="800" height="400">
-
-        <h2>Responsive Web Design</h2>
-        <p>One of the most exciting things I learned was how to make my designs responsive without creating multiple versions of the same site. I used media queries to adjust layouts based on screen size.</p>
-        <p>Some techniques that made a big difference:</p>
-        <ul>
-            <li><code>@media (max-width: 768px)</code> - This helped me make adjustments for mobile screens without affecting desktop views.</li>
-            <li><code>flex-wrap: wrap;</code> - Before learning this, I struggled with elements shrinking too much. This made my layouts more adaptable.</li>
-            <li><code>minmax()</code> - This function in CSS Grid helped me create columns that remain flexible but don’t shrink too much.</li>
-        </ul>
-        <img src="images/responsive.jpg" alt="Example of Responsive Design" width="800" height="400">
-
-        <footer>
-            <p>Written by Hyunwoo (Tom) Song</p>
-        </footer>
-    </article>
+<article>
+<header>
+<h1>CSS Layout Techniques: Flexbox, Grid, Positioning, and Responsive Design</h1>
+<p>February 23, 2025</p>
+</header>
+<nav>
+<a href="../index.html">Home</a>
+<a href="../post3/post3.html">Previous Post</a>
+<a href="../post5/post5.html">Next Post</a>
+</nav>
+<h2>Flexible Box Layout (Flexbox)</h2>
+<p>Before learning about Flexbox, I struggled with aligning elements properly. Using floats and inline-block often led to inconsistent spacing and alignment issues. But Flexbox changed everything for me. I found it much easier to distribute space and position items dynamically within a container.</p>
+<p>Key properties I explored include:</p>
+<ul>
+<li><code>display: flex;</code> - Defines a flex container, allowing items to align efficiently.</li>
+<li><code>justify-content</code> - Helps align items horizontally with properties like <code>center</code> and <code>space-between</code>.</li>
+<li><code>align-items</code> - Controls vertical alignment, which was something I previously found tricky.</li>
+<li><code>flex-wrap</code> - Allows elements to wrap instead of shrinking uncomfortably in smaller screens.</li>
+</ul>
+<img alt="Example of Flexbox layout" height="400" src="images/flexbox.jpg" width="800"/>
+<h2>CSS Grid Layout</h2>
+<p>I had heard about CSS Grid before, but I never fully understood how powerful it was until I experimented with it. Unlike Flexbox, which is one-dimensional, Grid lets me control both rows and columns at the same time. This made it much easier to create complex layouts without relying on extra divs.</p>
+<p>Important concepts I explored:</p>
+<ul>
+<li><code>grid-template-columns</code> - Helps me define column structures efficiently.</li>
+<li><code>grid-template-rows</code> - Allows me to control row heights precisely.</li>
+<li><code>grid-area</code> - Makes it easy to assign elements to specific grid sections without unnecessary nesting.</li>
+</ul>
+<img alt="Example of CSS Grid layout" height="400" src="images/grid.jpg" width="800"/>
+<h2>Positioning Techniques</h2>
+<p>Before this, I often got frustrated when elements didn’t stay where I wanted them to. Learning about different positioning methods helped me gain more control over layouts.</p>
+<p>Here’s what I experimented with:</p>
+<ul>
+<li><code>position: relative;</code> - I used this to adjust elements slightly without affecting other content.</li>
+<li><code>position: absolute;</code> - I realized how powerful this is for placing elements exactly where I need them.</li>
+<li><code>position: fixed;</code> - This was useful when I wanted to keep a navigation bar visible while scrolling.</li>
+<li><code>position: sticky;</code> - I found this helpful when I wanted an element to stay in place but only when scrolling reaches a certain point.</li>
+</ul>
+<img alt="Example of CSS Positioning" height="400" src="images/positioning.jpg" width="800"/>
+<h2>Responsive Web Design</h2>
+<p>One of the most exciting things I learned was how to make my designs responsive without creating multiple versions of the same site. I used media queries to adjust layouts based on screen size.</p>
+<p>Some techniques that made a big difference:</p>
+<ul>
+<li><code>@media (max-width: 768px)</code> - This helped me make adjustments for mobile screens without affecting desktop views.</li>
+<li><code>flex-wrap: wrap;</code> - Before learning this, I struggled with elements shrinking too much. This made my layouts more adaptable.</li>
+<li><code>minmax()</code> - This function in CSS Grid helped me create columns that remain flexible but don’t shrink too much.</li>
+</ul>
+<img alt="Example of Responsive Design" height="400" src="images/responsive.jpg" width="800"/>
+<footer>
+<p>Written by Hyunwoo (Tom) Song</p>
+</footer>
+</article>
 </body>
 </html>
