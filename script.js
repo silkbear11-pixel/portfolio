@@ -78,21 +78,18 @@ const translations = {
     'des112BankName': 'Banking Guide — UX Concept',
     'des112BankSummary': 'Banking usability study and educational interface proposal for Generation X.',
 
+    additionalEyebrow: 'ADDITIONAL WORK', additionalTitle: 'Explore more of my work', additionalIntro: 'Selected original web demos and visual-design case studies.', additionalPortal: 'Original DES 157A course website', additionalWeb: 'Web Experiments', additionalWebDesc: 'Interactive browser-based projects', additionalVisual: 'Visual Design Collection', additionalVisualDesc: 'Selected information and editorial design',
     skip: 'Skip to content', navWork: 'Work', navAbout: 'About', navContact: 'Contact', talk: "Let's talk",
     heroEyebrow: 'DESIGN PORTFOLIO / 2026', heroLine1: 'Designing', heroLine2: "what's next.",
     heroDesc: "I'm Hyunwoo — a designer exploring the space between visual storytelling, intuitive interfaces, and interactive experiences.",
     viewProjects: 'Explore my work', moreAbout: 'More about me',
     heroBottom: 'GRAPHIC DESIGN <span class="divider-star">✳</span> UI/UX <span class="divider-star">✳</span> INTERACTIVE MEDIA',
     scroll: 'SCROLL TO EXPLORE', workEyebrow: 'SELECTED WORK', workTitle: 'Ideas made tangible<span class="accent-period">.</span>',
-    workIntro: 'A selection of coursework and experiments across design, code, and interaction.',
+    workIntro: 'Ten selected projects spanning UX research, interactive development, and visual communication.',
     filterAll: 'All work', filterWeb: 'Web & Interaction', filterVisual: 'Visual Design',
-    portalType: 'WEB / INTERACTION', portalSummary: 'An interactive web project developed through design coursework.',
-    ftpType: 'WEB / CREATIVE CODING', ftpSummary: 'A web-based project exploring layout and digital interaction.',
-    experimentsType: 'INTERACTIVE MEDIA', experimentsName: 'Web Experiments', experimentsSummary: 'Small interactive exercises created with HTML, CSS, and JavaScript.',
-    visualType: 'GRAPHIC / VISUAL DESIGN', visualName: 'Visual Design Collection', visualSummary: 'A space for typography, graphics, and visual communication work.',
     des50ModulesType: 'MODULAR / FORM EXPLORATION', des50ModulesName: 'Camouflaged & Pixelated', des50ModulesSummary: 'Modular geometry, physical studies, and spatial assemblies.',
     des50SeatingType: 'SPATIAL DESIGN / VISUALIZATION', des50SeatingName: 'Public Seating & Shade', des50SeatingSummary: 'An urban seating concept developed through models and renderings.',
-    disclaimer: 'Visual previews are custom placeholders. Replace them with your actual project screenshots before publishing to employers.',
+    disclaimer: 'Selected UC Davis projects, presented with original work and documented design processes.',
     aboutEyebrow: 'A LITTLE ABOUT ME', aboutTitle: 'Creative mind.<br>Curious by nature<span class="accent-period">.</span>',
     aboutLead: "I'm Hyunwoo Song, a design graduate from the University of California, Davis.",
     aboutBody: 'My interests span graphic design, UI/UX, digital experiences, and game interfaces. I enjoy bringing together visuals and functionality — from shaping a clear layout to building an interactive prototype.',
@@ -100,7 +97,7 @@ const translations = {
     educationLabel: 'EDUCATION', degree: 'B.A. in Design · 2026', focusLabel: 'FOCUS', focusValue: 'Visual + Interactive',
     skillsEyebrow: 'TOOLS & CAPABILITIES', skillsTitle: 'My creative toolkit<span class="accent-period">.</span>',
     designTools: 'Design tools', webTools: 'Web & prototyping', creativeAreas: 'Creative areas',
-    creativeAreasList: 'UI/UX · Visual Design · Interactive Media · Motion Graphics',
+    creativeAreasList: 'UI/UX · Visual Design · Interactive Media · Game Design',
     contactEyebrow: "WHAT'S NEXT?", contactTitle1: 'Have something', contactTitle2: 'in mind?',
     contactDesc: "I'm open to opportunities and creative conversations in visual design, UI/UX, and interactive experiences.",
     existingSite: 'Previous website', contactNote: 'Add your professional email address and LinkedIn URL in index.html when ready.',
@@ -201,21 +198,18 @@ const translations = {
     'des112BankName': 'Banking Guide — UX 기획',
     'des112BankSummary': 'X세대 사용자를 위한 온라인 금융 UX 조사와 학습형 인터페이스 제안.',
 
+    additionalEyebrow: '추가 작업', additionalTitle: '다른 작업 둘러보기', additionalIntro: '실제로 구현한 웹 데모와 시각 디자인 작품을 모았습니다.', additionalPortal: 'DES 157A 수업에서 제작한 실제 웹사이트', additionalWeb: '웹 실험', additionalWebDesc: '브라우저에서 체험하는 인터랙티브 프로젝트', additionalVisual: '시각 디자인 모음', additionalVisualDesc: '정보 디자인과 에디토리얼 작업',
     skip: '본문으로 이동', navWork: '작업물', navAbout: '소개', navContact: '연락', talk: '연락하기',
     heroEyebrow: '디자인 포트폴리오 / 2026', heroLine1: '다음 경험을', heroLine2: '디자인합니다.',
     heroDesc: '안녕하세요, 송현우입니다. 시각적 스토리텔링, 직관적인 인터페이스, 인터랙티브 경험이 만나는 지점을 탐구하는 디자이너입니다.',
     viewProjects: '프로젝트 보기', moreAbout: '더 알아보기',
     heroBottom: '그래픽 디자인 <span class="divider-star">✳</span> UI/UX <span class="divider-star">✳</span> 인터랙티브 미디어',
     scroll: '스크롤해서 둘러보기', workEyebrow: '주요 작업물', workTitle: '아이디어를 현실로<span class="accent-period">.</span>',
-    workIntro: '디자인과 코드, 인터랙션을 넘나드는 수업 프로젝트와 실험을 모았습니다.',
+    workIntro: 'UX 리서치, 인터랙티브 웹, 시각 커뮤니케이션을 중심으로 엄선한 10개 프로젝트입니다.',
     filterAll: '전체', filterWeb: '웹 & 인터랙션', filterVisual: '비주얼 디자인',
-    portalType: '웹 / 인터랙션', portalSummary: '디자인 수업에서 제작한 인터랙티브 웹 프로젝트입니다.',
-    ftpType: '웹 / 크리에이티브 코딩', ftpSummary: '레이아웃과 디지털 인터랙션을 탐구한 웹 기반 프로젝트입니다.',
-    experimentsType: '인터랙티브 미디어', experimentsName: '웹 실험', experimentsSummary: 'HTML, CSS, JavaScript를 활용한 소규모 인터랙티브 실습입니다.',
-    visualType: '그래픽 / 비주얼 디자인', visualName: '비주얼 디자인 모음', visualSummary: '타이포그래피, 그래픽, 시각 커뮤니케이션 작업을 소개할 공간입니다.',
     des50ModulesType: '모듈 / 형태 연구', des50ModulesName: 'Camouflaged & Pixelated', des50ModulesSummary: '기하학적 모듈과 실물 모형, 입체 구조의 발전 과정입니다.',
     des50SeatingType: '공간 디자인 / 시각화', des50SeatingName: '공공 좌석과 그늘 구조물', des50SeatingSummary: '모형과 렌더링을 통해 발전시킨 도심 좌석 디자인 콘셉트입니다.',
-    disclaimer: '현재 프로젝트 이미지는 임시 디자인입니다. 채용 지원 전에 실제 작업물 스크린샷으로 교체하세요.',
+    disclaimer: 'UC Davis에서 제작한 실제 프로젝트 중 선별한 작업물과 디자인 과정을 소개합니다.',
     aboutEyebrow: '나에 대한 소개', aboutTitle: '창의적으로 생각하고<br>끊임없이 탐구합니다<span class="accent-period">.</span>',
     aboutLead: '안녕하세요. UC Davis에서 디자인을 전공한 송현우입니다.',
     aboutBody: '그래픽 디자인, UI/UX, 디지털 경험, 게임 인터페이스에 관심이 있습니다. 명확한 레이아웃부터 인터랙티브 프로토타입까지, 시각적 완성도와 기능성을 함께 고민합니다.',
@@ -223,7 +217,7 @@ const translations = {
     educationLabel: '학력', degree: '디자인 학사 · 2026', focusLabel: '관심 분야', focusValue: '비주얼 + 인터랙션',
     skillsEyebrow: '도구 및 역량', skillsTitle: '나의 디자인 도구<span class="accent-period">.</span>',
     designTools: '디자인 도구', webTools: '웹 & 프로토타이핑', creativeAreas: '디자인 분야',
-    creativeAreasList: 'UI/UX · 시각 디자인 · 인터랙티브 미디어 · 모션 그래픽',
+    creativeAreasList: 'UI/UX · 시각 디자인 · 인터랙티브 미디어 · 게임 디자인',
     contactEyebrow: '다음은 무엇일까요?', contactTitle1: '함께할 아이디어가', contactTitle2: '있으신가요?',
     contactDesc: '시각 디자인, UI/UX, 인터랙티브 경험 분야의 채용 기회와 협업에 열려 있습니다.',
     existingSite: '이전 웹사이트', contactNote: '연락용 이메일과 LinkedIn 주소가 준비되면 index.html에 추가하세요.',
@@ -248,49 +242,10 @@ const translations = {
   }
 };
 
-// IMPORTANT: replace the null URLs with real, public project links when available.
-// The Portal, FTP, and Web Experiments names are based on known coursework;
-// all decorative preview artwork is placeholder artwork, NOT screenshots.
-const projects = {
-  portal: {
-    title: {en: 'Portal', ko: 'Portal'}, type: {en: 'WEB / INTERACTION', ko: '웹 / 인터랙션'},
-    description: {
-      en: 'A coursework-based interactive web experience. This case study can show the original assignment, your design decisions, implementation details, and final interaction.',
-      ko: '수업을 통해 제작한 인터랙티브 웹 경험입니다. 실제 과제 목표, 디자인 결정, 구현 방법, 최종 인터랙션을 이곳에 정리할 수 있습니다.'
-    }, tags: ['HTML', 'CSS', 'JavaScript'], url: null
-
-  },
-  ftp: {
-    title: {en: 'FTP', ko: 'FTP'}, type: {en: 'WEB / CREATIVE CODING', ko: '웹 / 크리에이티브 코딩'},
-    description: {
-      en: 'A web project from your coursework. Replace this introductory text with the accurate project brief, screenshots, your specific contributions, and what you learned.',
-      ko: '수업에서 작업한 웹 프로젝트입니다. 실제 프로젝트 설명, 스크린샷, 담당 작업, 배운 점으로 이 소개를 교체하세요.'
-    }, tags: ['Web Design', 'Coursework'], url: null
-  },
-  experiments: {
-    title: {en: 'Web Experiments', ko: '웹 실험'}, type: {en: 'INTERACTIVE MEDIA', ko: '인터랙티브 미디어'},
-    description: {
-      en: 'A collection page for smaller interactive exercises such as interface explorations, animations, and front-end experiments. Add only the exercises you actually completed.',
-      ko: '인터페이스 실험, 애니메이션, 프런트엔드 실습 등을 모아둘 공간입니다. 실제로 완성한 작업만 추가하세요.'
-    }, tags: ['HTML', 'CSS', 'JavaScript'], url: null
-  },
-  visual: {
-    title: {en: 'Visual Design Collection', ko: '비주얼 디자인 모음'}, type: {en: 'GRAPHIC / VISUAL DESIGN', ko: '그래픽 / 비주얼 디자인'},
-    description: {
-      en: 'A placeholder collection for your real typography, visual communication, or graphic design work. Add authentic project photos, design rationale, and the tools used.',
-      ko: '타이포그래피, 시각 커뮤니케이션, 그래픽 디자인 작업을 채워 넣을 공간입니다. 실제 이미지, 제작 의도, 사용 도구를 추가하세요.'
-    }, tags: ['Figma', 'Adobe Creative Cloud'], url: null
-  }
-};
-
 const languageButtons = document.querySelectorAll('.lang-button');
 const filterButtons = document.querySelectorAll('.filter-pill');
 const cards = document.querySelectorAll('.project-card');
-const dialog = document.querySelector('#project-dialog');
-const dialogLink = document.querySelector('#dialog-link');
-const dialogNote = document.querySelector('#dialog-note');
 let currentLanguage = 'en';
-let currentProject = null;
 
 function setLanguage(lang) {
   if (!translations[lang]) return;
@@ -307,32 +262,7 @@ function setLanguage(lang) {
     button.setAttribute('aria-pressed', String(selected));
   });
   document.querySelector('#menu-toggle').setAttribute('aria-label', lang === 'ko' ? '메뉴 열기' : 'Open menu');
-  document.querySelectorAll('[data-project]').forEach((button) => {
-    const name = projects[button.dataset.project].title[lang];
-    button.setAttribute('aria-label', lang === 'ko' ? `${name} 프로젝트 상세 보기` : `View ${name} project details`);
-  });
-  if (dialog.open && currentProject) renderProject(currentProject);
   try { localStorage.setItem('portfolio-language', lang); } catch (error) { /* Storage is optional. */ }
-}
-
-function renderProject(id) {
-  const project = projects[id];
-  if (!project) return;
-  currentProject = id;
-  document.querySelector('#dialog-title').textContent = project.title[currentLanguage];
-  document.querySelector('#dialog-type').textContent = project.type[currentLanguage];
-  document.querySelector('#dialog-description').textContent = project.description[currentLanguage];
-  const tags = document.querySelector('#dialog-tags');
-  tags.replaceChildren();
-  project.tags.forEach((tag) => {
-    const chip = document.createElement('span');
-    chip.textContent = tag;
-    tags.appendChild(chip);
-  });
-  dialogLink.hidden = !project.url;
-  if (project.url) dialogLink.href = project.url;
-  else dialogLink.removeAttribute('href');
-  dialogNote.textContent = translations[currentLanguage][project.url ? 'dialogInfo' : 'noLink'];
 }
 
 languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
@@ -345,15 +275,6 @@ filterButtons.forEach((button) => button.addEventListener('click', () => {
   });
   cards.forEach((card) => { card.hidden = selected !== 'all' && card.dataset.category !== selected; });
 }));
-
-document.querySelectorAll('[data-project]').forEach((button) => button.addEventListener('click', () => {
-  renderProject(button.dataset.project);
-  if (typeof dialog.showModal === 'function') dialog.showModal();
-}));
-function closeDialog() { if (dialog.open) dialog.close(); }
-document.querySelector('#dialog-close').addEventListener('click', closeDialog);
-document.querySelector('#dialog-back').addEventListener('click', closeDialog);
-dialog.addEventListener('click', (event) => { if (event.target === dialog) closeDialog(); });
 
 const menuButton = document.querySelector('#menu-toggle');
 const nav = document.querySelector('#primary-nav');
