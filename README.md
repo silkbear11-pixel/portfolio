@@ -41,3 +41,8 @@ The public email link is HTML-encoded in `index.html`. It works without JavaScri
 ## Notes
 
 Projects are presented as academic work. Archived coursework may include external references and third-party resources credited within the original materials.
+
+
+## Case study notes
+
+The DES 112 Aggie Share case study connects findings from three exploratory international-student interviews to the presented Figma flows and identifies proposed next usability tests. The DES 157A Game of Pig page describes interaction and state behavior verified against the submitted JavaScript. The DES 117 blog page documents desktop/mobile content layout considerations. These are coursework projects; no measured product impact or completed usability study is claimed.

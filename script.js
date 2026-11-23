@@ -28,7 +28,7 @@ const translations = {
     des157DeskSummary: 'Interactive photo gallery with clickable images and working demo.',
     des157PigType: 'GAME UI · JAVASCRIPT',
     des157PigName: 'Game of Pig — The Dice Game',
-    des157PigSummary: 'Playable dice game with score tracking, turns and sound controls.',
+    des157PigSummary: 'Course-built browser game demonstrating state feedback, turns, scoring and controls.',
     des14FinalType: 'DRAWING · ILLUSTRATION',
     des14FinalName: 'Breathless World',
     des14FinalSummary: 'Environmental-themed final illustration drawn by hand.',

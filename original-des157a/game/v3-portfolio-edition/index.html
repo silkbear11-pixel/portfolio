@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101119">
+  <meta name="description" content="Game of Pig — an interactive two-player dice game designed by Hyunwoo Song.">
+  <title>Game of Pig — Portfolio Edition</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="../../../des157a-pig.html" title="View project case study"><span class="brand-mark">H<span>.</span></span><span class="brand-word">HYUNWOO SONG <small>INTERACTIVE LAB / 01</small></span></a>
+      <div class="top-controls">
+        <button id="langButton" class="text-button" type="button" aria-label="Switch language">한국어</button>
+        <button id="soundButton" class="text-button sound" type="button" aria-pressed="false"><span class="speaker">◌</span> <span data-i18n="soundOn">Sound on</span></button>
+      </div>
+    </header>
+    <section class="intro" id="intro">
+      <div class="eyebrow"><span class="light-dot"></span><span data-i18n="eyebrow">A TWO-PLAYER DICE GAME</span></div>
+      <h1>GAME <span class="outlined">OF</span><br><em>PIG.</em></h1>
+      <p class="intro-copy" data-i18n="tagline">Two dice. One choice. Push your luck or play it safe.</p>
+      <div class="intro-actions"><button id="startButton" class="primary" type="button"><span data-i18n="start">Start game</span><span aria-hidden="true">↗</span></button><a href="#rules" class="secondary"><span data-i18n="how">How to play</span> ↓</a></div>
+      <div class="decor" aria-hidden="true"><div class="decor-die">⚄</div><div class="decor-die second">⚂</div></div>
+    </section>
+    <section class="arena hidden" id="arena" aria-label="Game area">
+      <div class="game-header"><div><p class="eyebrow"><span class="light-dot"></span><span data-i18n="live">GAME IN PROGRESS</span></p><h1 class="game-title">FIRST TO <span>30</span> WINS.</h1></div><div class="header-buttons"><button class="secondary small" id="newGame" type="button" data-i18n="newGame">New game</button><button class="secondary small" id="backHome" type="button" data-i18n="home">Home</button></div></div>
+      <div class="scoreboard">
+        <section class="player active" id="p0" aria-label="Player one"><div class="player-head"><span class="tag">01 / <span data-i18n="player">PLAYER</span></span><span class="turn-chip" id="turn0" data-i18n="yourTurn">YOUR TURN</span></div><div class="score" id="score0">00</div><div class="score-bottom"><span data-i18n="total">TOTAL SCORE</span><span id="progressText0">0 / 30</span></div><div class="progress"><span id="progress0"></span></div></section>
+        <section class="player" id="p1" aria-label="Player two"><div class="player-head"><span class="tag">02 / <span data-i18n="player">PLAYER</span></span><span class="turn-chip" id="turn1" data-i18n="waiting">WAITING</span></div><div class="score" id="score1">00</div><div class="score-bottom"><span data-i18n="total">TOTAL SCORE</span><span id="progressText1">0 / 30</span></div><div class="progress"><span id="progress1"></span></div></section>
+      </div>
+      <section class="play-panel"><div class="dice-stage"><div class="dice" id="die0" data-face="1" role="img" aria-label="Die one showing one"><i class="dot a"></i><i class="dot b"></i><i class="dot c"></i><i class="dot d"></i><i class="dot e"></i><i class="dot f"></i><i class="dot g"></i></div><div class="dice" id="die1" data-face="1" role="img" aria-label="Die two showing one"><i class="dot a"></i><i class="dot b"></i><i class="dot c"></i><i class="dot d"></i><i class="dot e"></i><i class="dot f"></i><i class="dot g"></i></div></div><div class="outcome"><p class="eyebrow" data-i18n="currentTurn">CURRENT TURN</p><h2 id="status" aria-live="polite">Player 1 is up. Roll the dice!</h2><p id="substatus" class="substatus" data-i18n="risk">Roll to score. Pass to protect your lead.</p></div><div class="actions"><button id="rollButton" class="primary" type="button"><span data-i18n="roll">Roll dice</span> <span>↗</span></button><button id="passButton" class="secondary" type="button" data-i18n="pass">Pass turn →</button></div></section>
+      <div class="history-panel"><div class="history-title"><span data-i18n="recent">RECENT ROLLS</span><span data-i18n="ruleHint">ONE = TURN OVER · DOUBLE ONES = RESET SCORE</span></div><ol id="history" aria-label="Recent rolls"><li class="empty" data-i18n="historyEmpty">Your rolls will appear here.</li></ol></div>
+    </section>
+    <section id="rules" class="rules"><div class="eyebrow">01 / <span data-i18n="rulesLabel">THE RULES</span></div><div class="rules-layout"><h2 data-i18n="rulesTitle">RISK.<br>ROLL.<br>REPEAT.</h2><div class="rule-list"><div class="rule"><span>01</span><p data-i18n="rule1">Two players take turns rolling two dice. The first to reach 30 points wins.</p></div><div class="rule"><span>02</span><p data-i18n="rule2">If neither die shows 1, add both dice to your score. Roll again or pass.</p></div><div class="rule"><span>03</span><p data-i18n="rule3">Roll one 1 and your turn ends. Roll two 1s and your total score resets to zero.</p></div><div class="rule"><span>04</span><p data-i18n="rule4">Pass to hand the dice to the other player without risking a penalty.</p></div></div></div></section>
+    <footer><span>© 2026 HYUNWOO SONG</span><span data-i18n="footer">DES 157A COURSE PROJECT · ENHANCED PORTFOLIO EDITION</span><a href="../../../des157a-pig.html" data-i18n="caseStudy">VIEW CASE STUDY ↗</a></footer>
+  </main>
+  <dialog id="confirmDialog"><div class="dialog-inner"><p class="eyebrow" data-i18n="confirmLabel">START OVER?</p><h2 data-i18n="confirmTitle">Reset the match?</h2><p data-i18n="confirmBody">Both scores and roll history will be cleared.</p><div class="dialog-actions"><button type="button" class="secondary" id="cancelReset" data-i18n="cancel">Cancel</button><button type="button" class="primary" id="confirmReset" data-i18n="reset">Reset game</button></div></div></dialog>
+  <audio id="diceSound" src="../v2-final-version/audio/dice.mp3" preload="none"></audio>
+  <audio id="bgm" src="../v2-final-version/audio/bgm.mp3" loop preload="none"></audio>
+</body>
+</html>
