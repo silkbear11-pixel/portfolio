@@ -13,3 +13,5 @@
 .extra-link small{font-size:11px;line-height:1.6;color:var(--muted)}
 .extra-link>span:last-child{color:var(--lime);font-size:19px}
 @media(max-width:720px){.extra-links{grid-template-columns:1fr}.extra-work{margin-top:50px}}
+
+.software-cover img{object-fit:contain!important;background:#101820;}

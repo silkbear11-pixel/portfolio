@@ -46,3 +46,8 @@ Projects are presented as academic work. Archived coursework may include externa
 ## Case study notes
 
 The DES 112 Aggie Share case study connects findings from three exploratory international-student interviews to the presented Figma flows and identifies proposed next usability tests. The DES 157A Game of Pig page describes interaction and state behavior verified against the submitted JavaScript. The DES 117 blog page documents desktop/mobile content layout considerations. These are coursework projects; no measured product impact or completed usability study is claimed.
+
+## Added software prototypes
+- WorldForge v5: `worldforge.html`, demo `apps/worldforge/index.html` and ZIP.
+- Pulse v2: `pulse.html`, public simulation-only demo `apps/pulse/index.html` and original live-agent ZIP.
+- Both are AI-assisted prototypes; original coursework and upgraded Game of Pig are retained.

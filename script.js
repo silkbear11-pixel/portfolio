@@ -1,6 +1,11 @@
 /* Portfolio content: edit translations and project details here. */
 const translations = {
   en: {
+    worldforgeType: "GAME TOOLS · INTERACTIVE SOFTWARE",
+    worldforgeSummary: "Design, simulate and evaluate game environments.",
+    pulseType: "PRODUCT DESIGN · DATA VISUALIZATION",
+    pulseSummary: "Explore PC performance, connectivity and incident history.",
+
     des15BookType: 'VISUAL DESIGN · EDITORIAL',
     des15BookName: 'Mirror, Connection, Color & Creativity',
     des15BookSummary: 'A 48-page final book exploring composition, visual relationships, color and creative expression.',
@@ -85,11 +90,11 @@ const translations = {
     viewProjects: 'Explore my work', moreAbout: 'More about me',
     heroBottom: 'GRAPHIC DESIGN <span class="divider-star">✳</span> UI/UX <span class="divider-star">✳</span> INTERACTIVE MEDIA',
     scroll: 'SCROLL TO EXPLORE', workEyebrow: 'SELECTED WORK', workTitle: 'Ideas made tangible<span class="accent-period">.</span>',
-    workIntro: 'Ten selected projects spanning UX research, interactive development, and visual communication.',
+    workIntro: 'Twelve selected projects spanning product prototypes, UX research, interactive development, and visual communication.',
     filterAll: 'All work', filterWeb: 'Web & Interaction', filterVisual: 'Visual Design',
     des50ModulesType: 'MODULAR / FORM EXPLORATION', des50ModulesName: 'Camouflaged & Pixelated', des50ModulesSummary: 'Modular geometry, physical studies, and spatial assemblies.',
     des50SeatingType: 'SPATIAL DESIGN / VISUALIZATION', des50SeatingName: 'Public Seating & Shade', des50SeatingSummary: 'An urban seating concept developed through models and renderings.',
-    disclaimer: 'Selected UC Davis projects, presented with original work and documented design processes.',
+    disclaimer: 'Independent AI-assisted software prototypes alongside selected UC Davis coursework.',
     aboutEyebrow: 'A LITTLE ABOUT ME', aboutTitle: 'Creative mind.<br>Curious by nature<span class="accent-period">.</span>',
     aboutLead: "I'm Hyunwoo Song, a design graduate from the University of California, Davis.",
     aboutBody: 'My interests span graphic design, UI/UX, digital experiences, and game interfaces. I enjoy bringing together visuals and functionality — from shaping a clear layout to building an interactive prototype.',
@@ -121,6 +126,11 @@ const translations = {
     'des111-glassSummary': 'A generative interactive sketch where clicking an 800 × 800 canvas initiates multiple fracture lines that grow, turn, and sometimes branch under procedural rules.',
   },
   ko: {
+    worldforgeType: "게임 도구 · 인터랙티브 소프트웨어",
+    worldforgeSummary: "게임 환경을 설계하고 시뮬레이션 및 분석하는 레벨 에디터.",
+    pulseType: "프로덕트 디자인 · 데이터 시각화",
+    pulseSummary: "PC 성능과 네트워크 상태 및 이상 현상 기록을 확인하는 대시보드.",
+
     des15BookType: '시각 디자인 · 에디토리얼',
     des15BookName: '거울, 연결, 색채, 창의성',
     des15BookSummary: '구도, 시각적 관계, 색채와 창의적 표현을 다룬 48페이지 최종 디자인 북.',
@@ -205,11 +215,11 @@ const translations = {
     viewProjects: '프로젝트 보기', moreAbout: '더 알아보기',
     heroBottom: '그래픽 디자인 <span class="divider-star">✳</span> UI/UX <span class="divider-star">✳</span> 인터랙티브 미디어',
     scroll: '스크롤해서 둘러보기', workEyebrow: '주요 작업물', workTitle: '아이디어를 현실로<span class="accent-period">.</span>',
-    workIntro: 'UX 리서치, 인터랙티브 웹, 시각 커뮤니케이션을 중심으로 엄선한 10개 프로젝트입니다.',
+    workIntro: '프로덕트 프로토타입, UX 리서치, 인터랙티브 웹, 시각 커뮤니케이션을 중심으로 엄선한 12개 프로젝트입니다.',
     filterAll: '전체', filterWeb: '웹 & 인터랙션', filterVisual: '비주얼 디자인',
     des50ModulesType: '모듈 / 형태 연구', des50ModulesName: 'Camouflaged & Pixelated', des50ModulesSummary: '기하학적 모듈과 실물 모형, 입체 구조의 발전 과정입니다.',
     des50SeatingType: '공간 디자인 / 시각화', des50SeatingName: '공공 좌석과 그늘 구조물', des50SeatingSummary: '모형과 렌더링을 통해 발전시킨 도심 좌석 디자인 콘셉트입니다.',
-    disclaimer: 'UC Davis에서 제작한 실제 프로젝트 중 선별한 작업물과 디자인 과정을 소개합니다.',
+    disclaimer: 'AI 지원 개인 소프트웨어 프로토타입과 UC Davis 수업 프로젝트를 소개합니다.',
     aboutEyebrow: '나에 대한 소개', aboutTitle: '창의적으로 생각하고<br>끊임없이 탐구합니다<span class="accent-period">.</span>',
     aboutLead: '안녕하세요. UC Davis에서 디자인을 전공한 송현우입니다.',
     aboutBody: '그래픽 디자인, UI/UX, 디지털 경험, 게임 인터페이스에 관심이 있습니다. 명확한 레이아웃부터 인터랙티브 프로토타입까지, 시각적 완성도와 기능성을 함께 고민합니다.',
